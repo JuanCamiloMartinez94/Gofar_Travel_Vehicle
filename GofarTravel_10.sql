@@ -62,7 +62,7 @@ CREATE TABLE facturas
  CONSTRAINT fk_f_a_atributos FOREIGN KEY(atributo_id) REFERENCES atributos(ID));
  
  CREATE SEQUENCE vendedore_sequence START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
- CREATE SEQUENCE cliente_sequence START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
+ CREATE SEQUENCE cliente_sequence START WITH 23 INCREMENT BY 1 NOCACHE NOCYCLE;
  CREATE SEQUENCE atributo_sequence START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
  CREATE SEQUENCE vehiculo_sequence START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE; 
  CREATE SEQUENCE vehiculo_nuevo_sequence START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE; 
@@ -71,7 +71,7 @@ CREATE TABLE facturas
  CREATE SEQUENCE atributo_factura_sequence START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
  
 INSERT INTO vehiculos  VALUES (vehiculo_sequence.NEXTVAL,'BVA79HTX7VP','Chevrolet','18-01-23','violet');
-INSERT INTO vehiculos  VALUES (vehiculo_sequence.NEXTVAL,'BFS43FYD5AL','Citroën','18-04-02','indigo');
+INSERT INTO vehiculos  VALUES (vehiculo_sequence.NEXTVAL,'BFS43FYD5AL','CitroÃ«n','18-04-02','indigo');
 INSERT INTO vehiculos  VALUES (vehiculo_sequence.NEXTVAL,'EIR26MYN4VG','Mercedes-Benz','17-08-12','yellow');
 INSERT INTO vehiculos  VALUES (vehiculo_sequence.NEXTVAL,'HAJ38WHQ4LR','Infiniti','17-07-17','green');
 INSERT INTO vehiculos  VALUES (vehiculo_sequence.NEXTVAL,'NWQ14NKU1BT','General Motors','17-02-28','red');
@@ -87,7 +87,7 @@ INSERT INTO vehiculos  VALUES (vehiculo_sequence.NEXTVAL,'ZEZ10SZT9ZP','Toyota',
 INSERT INTO vehiculos  VALUES (vehiculo_sequence.NEXTVAL,'TZT71UVY4EF','Renault','17-01-23','blue');
 INSERT INTO vehiculos  VALUES (vehiculo_sequence.NEXTVAL,'ROA69CFD2AD','Subaru','18-07-07','green');
 INSERT INTO vehiculos  VALUES (vehiculo_sequence.NEXTVAL,'WSM79DHZ1AR','Renault','17-11-25','indigo');
-INSERT INTO vehiculos  VALUES (vehiculo_sequence.NEXTVAL,'IFH69OME5QO','Citroën','17-08-08','green');
+INSERT INTO vehiculos  VALUES (vehiculo_sequence.NEXTVAL,'IFH69OME5QO','CitroÃ«n','17-08-08','green');
 INSERT INTO vehiculos  VALUES (vehiculo_sequence.NEXTVAL,'PQW98IPL9LX','Jeep','17-06-23','red');
 INSERT INTO vehiculos  VALUES (vehiculo_sequence.NEXTVAL,'MGB63QUB5MW','Dodge','18-05-23','indigo');
 INSERT INTO vehiculos  VALUES (vehiculo_sequence.NEXTVAL,'RLY44RFX5KG','Isuzu','18-04-01','green');
@@ -110,7 +110,7 @@ INSERT INTO vehiculos  VALUES (vehiculo_sequence.NEXTVAL,'CYG34EQW7WO','Chrysler
 INSERT INTO vehiculos  VALUES (vehiculo_sequence.NEXTVAL,'SCT21XXK3MZ','Suzuki','18-03-02','green');
 INSERT INTO vehiculos  VALUES (vehiculo_sequence.NEXTVAL,'JYG94THN6NJ','Tata Motors','17-03-27','blue');
 INSERT INTO vehiculos  VALUES (vehiculo_sequence.NEXTVAL,'TYY48LZI3VC','Porsche','18-01-26','blue');
-INSERT INTO vehiculos  VALUES (vehiculo_sequence.NEXTVAL,'YCD29WNR7DB','Citroën','18-02-01','indigo');
+INSERT INTO vehiculos  VALUES (vehiculo_sequence.NEXTVAL,'YCD29WNR7DB','CitroÃ«n','18-02-01','indigo');
 INSERT INTO vehiculos  VALUES (vehiculo_sequence.NEXTVAL,'XTG08FAY6UT','Chrysler','17-09-16','orange');
 INSERT INTO vehiculos  VALUES (vehiculo_sequence.NEXTVAL,'JUV16KVD8DN','Porsche','17-12-05','indigo');
 INSERT INTO vehiculos  VALUES (vehiculo_sequence.NEXTVAL,'DBX72KGC4OF','Fiat','17-11-28','red');
